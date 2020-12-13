@@ -1,0 +1,333 @@
+
+.header{
+	width: 100%;
+	background-color: #006bb7;
+}
+.container{
+	width: 1200px;
+	height: 170px;
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+}
+
+.logo{
+	float: left;
+	margin-top: 20px;
+}
+.logo img{
+	height: 100px;
+	width: 300px;
+}
+.littleLogo{
+	position: absolute;
+	float: left;
+	right: 0;
+	margin-top: 20px;
+}
+.form{
+	float: left;
+	padding-top: 50px;
+	margin-left: 20px;
+}
+.form .search{
+	float: left;
+	border: 1px solid rgba(0,164,255,1);
+	font-size: 20px;
+	width: 500px;
+	height: 40px;
+}
+.form .submit{
+	float: left;
+	border: none;
+	width: 45px;
+	height: 42px;
+	background: rgba(0,164,255,1) url(../images/search.png) no-repeat center center;
+	cursor: pointer;
+}
+.people{
+	float: left;
+	width: 300px;
+	padding-top: 50px;
+	padding-left: 5px;
+}
+.people ul{
+	float: left;
+
+}
+.people span{
+	font-size: 15px;
+}
+.sign{
+	float: right;
+	margin-top: 10px;
+}
+.sign input{
+	font-size: 20px;
+	border: 2px solid black;
+}
+.nav{
+	float: left;
+	position: absolute;
+	bottom: 3px;
+	left: 0;
+}
+.nav li{
+	float: left;
+	padding-right: 40px;
+	padding-left: 15px;
+}
+.nav li a{
+	font-size: 20px;
+	color: white;
+}
+.nav li a:hover{
+	color: black;
+}
+.bannerbox{
+	position: relative;
+	width: 1290px;
+	height: 440px;
+	margin: 0 auto;
+	padding-top: 40px;
+	padding-left: 130px;
+}
+#newsimg{}
+#xiusaiimg{
+	position: absolute;
+	top: 40px;
+	left: 820px;
+}
+.diaocha{
+	display: inline-block;
+	position: absolute;
+	top: 310px;
+	left: 820px;
+	width: 359px;
+}
+.diaocha h2{
+	background: #2464b5;	
+	padding: 0 15px;
+	font-size: 24px;
+	height: 40px;
+	line-height: 40px;
+}
+.diaocha div{
+	position: absolute;
+}
+.diaochaIf{
+
+}
+#searchSubmit{
+	height: 40px;
+	width: 120px;
+	background: #2464b5;
+	line-height: 40px;
+	text-align: center;
+	font-size: 16px;
+	color: #fff;
+}
+.information{
+	width: 1200px;
+	height: 390px;
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+}
+.information>p{
+	float: left;
+	padding-bottom: 20px;
+	font-size: 30px;
+}
+.information>p a{
+	color: black;
+}
+.information li{
+	float: left;
+	width: 390px;
+	height: 330px;
+	padding-right: 10px;
+	position: relative;
+}
+.information ul{
+	float: left;
+}
+.information li a img{
+	width: 390px;
+	height: 300px;
+}
+.information li span{
+	font-size: 20px;
+}
+.information li p{
+	position: absolute;
+	left: 250px;
+	bottom: 30px;
+	color: white;
+}
+
+.video{
+	width: 1200px;
+	height: 450px;
+	margin: 0 auto;
+	margin-top: 30px;
+	text-align: center;
+	position: relative;
+}
+.video>p{
+	float: left;
+	padding-bottom: 20px;
+	font-size: 30px;
+}
+.video>p a{
+	color: black;
+}
+.video li{
+	float: left;
+	width: 390px;
+	height: 330px;
+	padding-right: 10px;
+	position: relative;
+}
+.video ul{
+	float: left;
+}
+.video li a img{
+	width: 390px;
+	height: 300px;
+}
+.video li span{
+	font-size: 20px;
+}
+.video li p{
+	position: absolute;
+	left: 250px;
+	bottom: 30px;
+	color: white;
+}
+.maylike{
+	width: 1200px;
+	height: 360px;
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+}
+.maylike .like{
+	display: inline-block;
+	position: relative;
+	margin-bottom: 30px;
+}
+.maylike h2:before{
+	content: "";
+	position: absolute;
+	height: 1px;
+	left: 160px;
+	width: 500px;
+	background: grey;
+	top:15px;
+}
+.maylike h2:after{
+	content: "";
+	position: absolute;
+	height: 1px;
+	right: 160px;
+	width: 500px;
+	background: grey;
+	top: 15px;
+}
+.maylike li{
+	float: left;
+	width: 230px;
+	height: 300px;
+	margin-right: 10px;
+}
+.maylike li a{
+	display: block;
+	margin-bottom: 20px;
+}
+.maylike li img{
+	width: 210px;
+	height: 200px;
+	cursor: pointer;  
+    transition: all 0.6s;  
+}
+.maylike li img:hover{
+	transform: scale(1.2);
+}
+.maylike li .intro{
+	font-size: 15px;
+	color: grey;
+}
+.last{
+	width: 100%;
+	height: 400px;
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+	background-color: #006bbF;
+}
+.lastbox{
+	width: 1200px;
+	height: 300px;
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+}
+.logo-footer{
+	float: left;
+	position: absolute;
+	top: 25px;
+}
+.lastbox .lav{
+	float: left;
+	position: absolute;
+	top: 20px;
+	left: 310px;
+}
+.lastbox .lav li{
+	padding-bottom: 30px;
+}
+.lastbox .lav li a{
+	font-size: 18px;
+	color: white;
+}
+
+.lastbox .about{
+	float: left;
+	position: absolute;
+	top: 20px;
+	left: 550px;
+}
+.lastbox .about li{
+	padding-bottom: 30px;
+}
+.lastbox .about li a{
+	font-size: 18px;
+	color: white;
+}
+
+.lastbox .rea{
+	float: left;
+	position: absolute;
+	top: 20px;
+	left: 830px;
+}
+.lastbox .rea li{
+	padding-bottom: 30px;
+}
+.lastbox .rea li a{
+	font-size: 18px;
+	color: white;
+}
+.banquan{
+	width: 1200px;
+	margin: 0 auto;
+	height: 100px;
+	border-top: 1px solid white;
+	padding-top: 10px;
+}
+.banquan p{
+	text-align: left;
+	font-size: 15px;
+	color: white;
+}
